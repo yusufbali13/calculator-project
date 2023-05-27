@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  min-height: 700px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  color: white;
+  margin: 1rem;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 3rem;
+  font-size: 2rem;
+  text-align: center;
+}
